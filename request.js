@@ -3,6 +3,10 @@ const request = require('request');
 console.log("Before");
 request('https://en.wikipedia.org/wiki/P', cb);
 
+
+
+//Automation code:-----------------------------------------------------------------------------------
+
 const puppeteer =require("puppeteer");
 let page;
 // console.log("Before");
@@ -104,6 +108,8 @@ browserOpenpromise.then(function(browser)
 {
     console.log(err);
 })
+// Automation ends here----------------------------------------------------------
+
 
 console.log("After")
 console.log("After")
